@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   font-family: 'Poor Story', system-ui;;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #3498db;
+  color: white;
+}
+#new_task_form{
+    display: flex;
+    flex-direction: row;
+    
+}
+h1{
+    margin-bottom: .5rem;
+    
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    /* position: relative; */
+    margin-left: 4.3rem;
+
+}
+section h2{
+    text-align: center;
+    color: crimson;
+}
+#new_task_input{
+    width: 500px;
+    height: auto;
+    background-color: #ecf0f1;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+body{
+    background-color: #f4f4f4;
+}
+.task-text{
+    width: 450px;
+    height: auto;
+    background-color: #fff;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+ button{
+    /* background-color: pink; */
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 1rem;
+} 
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+} 
+#add{
+  /* color: aqua; */
+  background-color:cyan;
+}
+.edit-button{
+    background-color: orange;
+}
+.delete-btn{
+    background-color: red;
+}
+.done-btn{
+    background-color: lightgreen;
+}
+
